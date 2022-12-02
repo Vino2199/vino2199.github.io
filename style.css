@@ -9,16 +9,7 @@ html{
     font-family: 'Livvic', sans-serif;
     line-height: 1;
 }
-@media screen and (max-width: 1024) {
-	.page{
-        width: 1024px;
-    }
-}
-@media screen and (max-width: 480) {
-	.page{
-        width: 480px;
-    }
-}
+
 h1{
     font-size: 30px;
     font-weight: 600;
