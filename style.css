@@ -3,11 +3,13 @@
     margin: 0;
     padding: 0;
 }
+
 html{
     background-color: orange;
     font-family: 'Livvic', sans-serif;
     line-height: 1;
 }
+
 h1{
     font-size: 30px;
     font-weight: 600;
@@ -37,6 +39,7 @@ h1{
     align-items: center;
     padding: 0 40px;
     justify-content: space-between;
+    flex-wrap:nowrap;
 }
 .text_menu{
     padding: 30px;
