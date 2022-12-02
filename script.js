@@ -4,18 +4,14 @@ const img_food = document.querySelector(".food_loved_img");
 const text_food = document.querySelector(".food_loved_des");
 const Menu_click = document.querySelector("#Menu");
 const Logo_img = document.querySelector(".logo")
-
+let i = 0;
+const clock = setInterval(change_images, 5000);
 Menu_click.addEventListener("click", function(){
     window.open("https://www.w3schools.com","_self");
 });
 /*Logo_img.addEventListener("click", function(){
     window.open("http://127.0.0.1:5500/index.html","_self");
 });*/
-page = `width = ${width}`;
-let i = 0;
-
-const clock = setInterval(change_images, 5000);
-
 
 function change_images(){
     if(i >= 10){

@@ -3,10 +3,21 @@
     margin: 0;
     padding: 0;
 }
+
 html{
     background-color: orange;
     font-family: 'Livvic', sans-serif;
     line-height: 1;
+}
+@media screen and (max-width: 1024) {
+	body{
+        width: 1024px;
+    }
+}
+@media screen and (max-width: 480) {
+	body{
+        width: 480px;
+    }
 }
 h1{
     font-size: 30px;
@@ -37,6 +48,7 @@ h1{
     align-items: center;
     padding: 0 40px;
     justify-content: space-between;
+    flex-wrap:nowrap;
 }
 .text_menu{
     padding: 30px;
