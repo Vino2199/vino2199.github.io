@@ -10,12 +10,12 @@ html{
     line-height: 1;
 }
 @media screen and (max-width: 1024) {
-	body{
+	.page{
         width: 1024px;
     }
 }
 @media screen and (max-width: 480) {
-	body{
+	.page{
         width: 480px;
     }
 }
