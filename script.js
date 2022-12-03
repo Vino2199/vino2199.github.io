@@ -1,4 +1,3 @@
-const width = screen.availWidth;
 let page = document.querySelector(".page");
 const img_food = document.querySelector(".food_loved_img");
 const text_food = document.querySelector(".food_loved_des");
@@ -26,6 +25,9 @@ Logo_img.addEventListener("click", function(){
 });
 
 function Start_Foto(){
+    if(!img_food){
+        return 0;
+    }
     const temp = food[0];
     img_food.innerHTML  = `<img src="images/${temp.image}.jpeg" alt="food img">`;
     text_food.innerHTML = `<h1>${temp.text}<\h1>`;

@@ -10,10 +10,20 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
     <title>Charro's</title>
+    <style media="all">
+        #mobile-conatiner{display:none}
+        #desktop-conatiner{display:block}
+        @media (max-width:800px){
+        #mobile-conatiner{display:block}
+        #desktop-conatiner{display:none}
+        }
+    </style>
 </head>
 <body>
     
     <div class="page">
+        <div id="mobile-conatiner" > Test Mobiles</div>
+        <div id="desktop-conatiner" > Test destkop</div>
         <div class="upper_panel">
             <div class="logo"><img src="images/Charros_logo.png" alt="logo" height="80px"> </div>
             <div class="menu_voice">
